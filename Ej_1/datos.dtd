@@ -1,0 +1,21 @@
+<!DOCTYPE festival[
+
+<!ELEMENT festival (grupo+)>
+<!ELEMENT grupo (nombre_grupo, localidad, año_creacion, componentes, premios)>
+<!ELEMENT nombre_grupo (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT año_creacion (#PCDATA)>
+
+<!ELEMENT componentes (componente+)>
+<!ELEMENT componente (nombre_componente, apellidos, edad, instrumento)>
+<!ELEMENT nombre_componente (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT instrumento (#PCDATA)>
+
+<!ELEMENT premios (premio*)>
+<!ELEMENT premio (nombre_premio, año_premio)>
+<!ELEMENT nombre_premio (#PCDATA)>
+<!ELEMENT año_premio (#PCDATA)>
+
+]>

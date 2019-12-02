@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/7a761dc153.js" crossorigin="anonymous"></script>
+    <title>Ej 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navigation" class="sticky">
+        <ul id="navbar">
+            <li><a class="cool-link" href="#">Contact Us</a></li>
+            <li><a class="cool-link" href="#">Our Team</a></li>
+            <li><a class="cool-link" href="#">Our Services</a></li>
+            <li><a class="cool-link" href="#">About Us</a></li>
+            <li><a id="blue" class="cool-link" href="#">Home</a></li>
+        </ul>
+    </nav><br><br>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/services1.jpg" style="width:100%">
+            <div class="text">TAX</div>
+            <div class="text2">GOOD BUSSINESS CONSULTING SERVICE</div>
+            <input class="button" type="button" value="LEARN MORE">
+        </div> 
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/services2.jpg" style="width:100%">
+            <div class="text">TAX</div>
+            <div class="text2">GOOD BUSSINESS CONSULTING SERVICE</div>
+            <input class="button" type="button" value="LEARN MORE">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/services3.jpg" style="width:100%">
+            <div class="text">TAX</div>
+            <div class="text2">GOOD BUSSINESS CONSULTING SERVICE</div>
+            <input class="button" type="button" value="LEARN MORE">
+        </div>
+            
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>        
+    </div><br>
+            
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+    <header>
+        <h1 class="blue">ABOUT US</h1>
+        <h2 id="alaign">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+    </header>
+    <section class="grid-container">
+        <div class="a">
+            <img class="img1" src="img/tax-helping.jpg" alt="">
+            <div class="white1"></div>
+            <article>
+                <p class="brown">T</p>
+                <img class="hexagon" src="img/hexagon.png" alt="">
+                <p class="align1">Tax Helping</p>
+                <p class="white2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo adipisci vel alias, quia expedita aut excepturi impedit quis nam, dicta unde? Odit dolore voluptatibus recusandae iusto quo veritatis consectetur quos?</p>
+            </article>
+        </div>
+        <div class="b">
+            <img class="img1" src="img/business-consulting.png" alt="">
+            <div class="white1"></div>
+            <article>
+                <p class="brown">B</p>
+                <img class="hexagon" src="img/hexagon.png" alt="">
+                <p class="align1">Business Consulting</p>
+                <p class="white2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo adipisci vel alias, quia expedita aut excepturi impedit quis nam, dicta unde? Odit dolore voluptatibus recusandae iusto quo veritatis consectetur quos?</p>
+            </article>
+        </div>
+        <div class="c">
+            <img class="img1" src="img/financial-consulting.jpg" alt="">
+            <div class="white1"></div>
+            <article>
+                <p class="brown">F</p>
+                <img class="hexagon" src="img/hexagon.png" alt="">
+               <p class="align1">Financial Consulting</p>
+               <p class="white2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo adipisci vel alias, quia expedita aut excepturi impedit quis nam, dicta unde? Odit dolore voluptatibus recusandae iusto quo veritatis consectetur quos?</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <h1 id="fuente" class="white">OUR SERVICES</h1>
+        <p id="fuente2" class="white">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p><br><br>
+        <div class="grid-container2">
+            <div class="f">
+                <i class="fab fa-bitcoin white tamanio"></i>
+            </div>
+            <div class="g">
+                <i class="fas fa-coins white tamanio"></i>
+            </div>
+            <div class="h">
+                <i class="far fa-money-bill-alt white tamanio"></i>
+            </div>
+            <div class="i">
+               <i class="fas fa-landmark white tamanio"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

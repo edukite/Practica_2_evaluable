@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+
+
+
+<festival>
+
+    <grupo>
+    
+        <nombre_grupo>Foo luchadores</nombre_grupo>
+        <localidad>Albacete</localidad>
+        <año_creacion>2002</año_creacion>
+        <componentes>
+
+            <componente>
+            
+                <nombre_componente>David gruñidos</nombre_componente>
+                <apellidos>Gómez Pérez</apellidos>
+                <edad>29</edad>
+                <instrumento>Bajo</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Paco</nombre_componente>
+                <apellidos>López López</apellidos>
+                <edad>25</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Jorge</nombre_componente>
+                <apellidos>López Martínez</apellidos>
+                <edad>32</edad>
+                <instrumento>Batería</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Antonio</nombre_componente>
+                <apellidos>González López</apellidos>
+                <edad>25</edad>
+                <instrumento>Guitarra</instrumento>
+
+            </componente>
+
+        
+        </componentes>
+
+        <premios>
+
+            <premio>
+            
+                <nombre_premio>El premio de mi casa</nombre_premio>
+                <año_premio>2005</año_premio>
+
+            </premio>
+
+            <premio>
+            
+                <nombre_premio>MTV awards de Albacete</nombre_premio>
+                <año_premio>2011</año_premio>
+
+            </premio>
+        
+        </premios>
+    
+    </grupo>
+
+
+    <grupo>
+    
+        <nombre_grupo>Hyukoh</nombre_grupo>
+        <localidad>Almería</localidad>
+        <año_creacion>2008</año_creacion>
+        <componentes>
+
+            <componente>
+            
+                <nombre_componente>Paco</nombre_componente>
+                <apellidos>Gómez Álvarez</apellidos>
+                <edad>23</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Joaquín</nombre_componente>
+                <apellidos>Gómez López</apellidos>
+                <edad>26</edad>
+                <instrumento>Guitarra</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Antonio</nombre_componente>
+                <apellidos>López López</apellidos>
+                <edad>20</edad>
+                <instrumento>Bajo</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Javier</nombre_componente>
+                <apellidos>España López</apellidos>
+                <edad>28</edad>
+                <instrumento>Batería</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Daniel</nombre_componente>
+                <apellidos>España Madrid</apellidos>
+                <edad>24</edad>
+                <instrumento>Guitarra</instrumento>
+
+            </componente>
+
+        
+        </componentes>
+
+        <premios>
+
+        
+        </premios>
+    
+    </grupo>
+
+
+    <grupo>
+    
+        <nombre_grupo>Blackpink</nombre_grupo>
+        <localidad>Corea del Sur</localidad>
+        <año_creacion>2015</año_creacion>
+        <componentes>
+
+            <componente>
+            
+                <nombre_componente>Lisa</nombre_componente>
+                <apellidos>Gómez Álvarez</apellidos>
+                <edad>21</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Jisoo</nombre_componente>
+                <apellidos>Gómez López</apellidos>
+                <edad>20</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Rosie</nombre_componente>
+                <apellidos>López López</apellidos>
+                <edad>20</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Jennie</nombre_componente>
+                <apellidos>España López</apellidos>
+                <edad>19</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+        
+        </componentes>
+
+        <premios>
+
+            <premio>
+            
+                <nombre_premio>MKS Showdown</nombre_premio>
+                <año_premio>2017</año_premio>
+
+            </premio>
+        
+        </premios>
+    
+    </grupo>
+
+
+    <grupo>
+    
+        <nombre_grupo>Los Ramones 2</nombre_grupo>
+        <localidad>Almería</localidad>
+        <año_creacion>2007</año_creacion>
+        <componentes>
+
+            <componente>
+            
+                <nombre_componente>Paco</nombre_componente>
+                <apellidos>Gómez Álvarez</apellidos>
+                <edad>23</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Joaquín</nombre_componente>
+                <apellidos>Gómez López</apellidos>
+                <edad>26</edad>
+                <instrumento>Guitarra</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Antonio</nombre_componente>
+                <apellidos>López López</apellidos>
+                <edad>20</edad>
+                <instrumento>Bajo</instrumento>
+
+            </componente>
+
+        </componentes>
+
+        <premios>
+
+            <premio>
+            
+                <nombre_premio>Torneo de música de Granada</nombre_premio>
+                <año_premio>2009</año_premio>
+
+            </premio>
+
+            <premio>
+            
+                <nombre_premio>Festival de música de Gijón: mejor grupo</nombre_premio>
+                <año_premio>2010</año_premio>
+            
+            </premio>
+            <premio>
+            
+                <nombre_premio>Premio random</nombre_premio>
+                <año_premio>2012</año_premio>
+            
+            </premio>
+        
+        </premios>
+    
+    </grupo>
+
+
+    <grupo>
+    
+        <nombre_grupo>AC/DC</nombre_grupo>
+        <localidad>Murcia</localidad>
+        <año_creacion>1998</año_creacion>
+        <componentes>
+
+            <componente>
+            
+                <nombre_componente>Alejandro</nombre_componente>
+                <apellidos>Roda López</apellidos>
+                <edad>34</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Antonio</nombre_componente>
+                <apellidos>Roda Martínez</apellidos>
+                <edad>33</edad>
+                <instrumento>Vocalista</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Francisco</nombre_componente>
+                <apellidos>Roda Navarro</apellidos>
+                <edad>38</edad>
+                <instrumento>Guitarra</instrumento>
+
+            </componente>
+
+            <componente>
+            
+                <nombre_componente>Patricio</nombre_componente>
+                <apellidos>Roda Roda</apellidos>
+                <edad>33</edad>
+                <instrumento>Batería</instrumento>
+
+            </componente>
+
+        
+        </componentes>
+
+        <premios>
+
+            <premio>
+            
+                <nombre_premio>El premio de mi casa</nombre_premio>
+                <año_premio>2008</año_premio>
+
+            </premio>
+        
+        </premios>
+    
+    </grupo>
+
+
+
+
+</festival>

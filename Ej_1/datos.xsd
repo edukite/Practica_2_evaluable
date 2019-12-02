@@ -1,0 +1,84 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   
+    <xs:element name="festival">
+
+        <xs:complexType>
+
+            <xs:sequence>
+
+                <xs:element name="grupo" maxOccurs="6">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="nombre_grupo" type="xs:string"/>
+                            <xs:element name="localidad" type="xs:string"/>
+                            <xs:element name="año_creacion" type="xs:integer"/>
+                            <xs:element name="componentes">
+                            
+                                <xs:complexType>
+
+                                    <xs:sequence>
+
+                                        <xs:element name="componente" maxOccurs="7"><!--esto se puede cambiar-->
+
+                                            <xs:complexType>
+
+                                                <xs:sequence>
+
+                                                    <xs:element name="nombre_componente" type="xs:string"/>
+                                                    <xs:element name="apellidos" type="xs:string"/>
+                                                    <xs:element name="edad" type="xs:integer"/>
+                                                    <xs:element name="instrumento" type="xs:string"/>
+
+                                                </xs:sequence>
+
+                                            </xs:complexType>
+
+                                        </xs:element>
+
+                                    </xs:sequence>
+
+                                </xs:complexType>
+                            
+                            </xs:element>   
+                            <xs:element name="premios">
+
+                                <xs:complexType>
+
+                                    <xs:sequence>
+
+                                        <xs:element name="premio" minOccurs="0" maxOccurs="5"><!--esto se puede cambiar-->
+
+                                            <xs:complexType>
+
+                                                <xs:sequence>
+
+                                                    <xs:element name="nombre_premio" type="xs:string"/>
+                                                    <xs:element name="año_premio" type="xs:integer"/>
+
+                                                </xs:sequence>
+
+                                            </xs:complexType>
+
+                                        </xs:element>
+
+                                    </xs:sequence>
+
+                                </xs:complexType>
+
+                            </xs:element>
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>

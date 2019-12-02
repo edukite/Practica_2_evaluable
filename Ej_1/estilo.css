@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(fonts/HELR45W.ttf);
+}
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 1800px;
+}
+
+.cabecera {
+  position: relative;
+  width: 100%;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 248, 0, 1) 81%
+  );
+}
+
+.logo {
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.header-video {
+  height: 300px;
+  width: 100%;
+
+  background-image: url(https://www.lollapalooza.com/wp-www-lollapalooza-com/wp/wp-content/uploads/2019/08/hq_thank-you-lolla-overlay-_1440-x-360v2-aad82852.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 76px 1px rgba(0, 0, 0, 0.75);
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 248, 0, 1) 81%
+  );
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  padding: 40px;
+  font-size: 3vh;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.programa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 800px;
+  background: rgb(1, 174, 154);
+  background: linear-gradient(
+    rgba(1, 174, 154, 1) 52%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+.programa table {
+  margin-right: 50%;
+  margin-left: 10%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: rgba(0, 255, 255, 0.589);
+}
+
+.programa tr,
+td,
+th {
+  border: 1px solid rgb(233, 233, 233);
+  padding: 10px;
+}
+.programa h1 {
+  margin-left: 29%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.programa img {
+  position: absolute;
+  width: 500px;
+  padding: 20px 20px 20px;
+  right: 10%;
+}
+
+.donde-estamos {
+  position: relative;
+  display: flex;
+
+  width: 100%;
+  height: 800px;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    rgba(255, 0, 0, 1) 70%,
+    rgba(198, 255, 0, 1) 100%
+  );
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+  padding: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.gmap_canvas {
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+.donde-estamos h1 {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  margin-top: 5%;
+  width: 800px;
+  height: 600px;
+}
+.image-wrapper img {
+  width: 400px;
+  height: 300px;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+
+/**/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". a b ." ". c d ." ". . . .";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+/**/
+
+.tickets {
+  width: 100%;
+  height: 800px;
+
+  background: rgb(198, 255, 0);
+  background: linear-gradient(
+    rgba(198, 255, 0, 1) 20%,
+    rgba(0, 155, 255, 1) 100%
+  );
+  text-align: center;
+}
+.tickets h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.tickets form {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid white;
+  background-color: rgba(0, 255, 255, 0.589);
+  border-radius: 5px;
+  padding: 40px;
+}
+input {
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.confirm-button {
+  width: 20%;
+  height: 30px;
+  background-color: rgb(8, 251, 191);
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background: rgb(0, 155, 255);
+  background: linear-gradient(
+    rgba(0, 155, 255, 1) 42%,
+    rgba(0, 31, 255, 1) 100%
+  );
+  text-align: center;
+  color: white;
+}
+
+.media {
+  border-radius: 10px;
+}
+
+/*Scroll bar*/
+body::-webkit-scrollbar {
+  width: 15px; /* Tamaño del scroll en vertical */
+  height: 15px; /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del
+	thumb */
+body::-webkit-scrollbar-thumb {
+  background: #d2d2d2;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #565656;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+/*Scroll bar/*/

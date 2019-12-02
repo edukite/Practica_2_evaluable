@@ -1,0 +1,215 @@
+{
+    "festival": {
+       "grupo": [
+          {
+             "nombre_grupo": "Foo luchadores",
+             "localidad": "Albacete",
+             "año_creacion": "2002",
+             "componentes": {
+                "componente": [
+                   {
+                      "nombre_componente": "David gruñidos",
+                      "apellidos": "Gómez Pérez",
+                      "edad": "29",
+                      "instrumento": "Bajo"
+                   },
+                   {
+                      "nombre_componente": "Paco",
+                      "apellidos": "López López",
+                      "edad": "25",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Jorge",
+                      "apellidos": "López Martínez",
+                      "edad": "32",
+                      "instrumento": "Batería"
+                   },
+                   {
+                      "nombre_componente": "Antonio",
+                      "apellidos": "González López",
+                      "edad": "25",
+                      "instrumento": "Guitarra"
+                   }
+                ]
+             },
+             "premios": {
+                "premio": [
+                   {
+                      "nombre_premio": "El premio de mi casa",
+                      "año_premio": "2005"
+                   },
+                   {
+                      "nombre_premio": "MTV awards de Albacete",
+                      "año_premio": "2011"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_grupo": "Hyukoh",
+             "localidad": "Almería",
+             "año_creacion": "2008",
+             "componentes": {
+                "componente": [
+                   {
+                      "nombre_componente": "Paco",
+                      "apellidos": "Gómez Álvarez",
+                      "edad": "23",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Joaquín",
+                      "apellidos": "Gómez López",
+                      "edad": "26",
+                      "instrumento": "Guitarra"
+                   },
+                   {
+                      "nombre_componente": "Antonio",
+                      "apellidos": "López López",
+                      "edad": "20",
+                      "instrumento": "Bajo"
+                   },
+                   {
+                      "nombre_componente": "Javier",
+                      "apellidos": "España López",
+                      "edad": "28",
+                      "instrumento": "Batería"
+                   },
+                   {
+                      "nombre_componente": "Daniel",
+                      "apellidos": "España Madrid",
+                      "edad": "24",
+                      "instrumento": "Guitarra"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_grupo": "Blackpink",
+             "localidad": "Corea del Sur",
+             "año_creacion": "2015",
+             "componentes": {
+                "componente": [
+                   {
+                      "nombre_componente": "Lisa",
+                      "apellidos": "Gómez Álvarez",
+                      "edad": "21",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Jisoo",
+                      "apellidos": "Gómez López",
+                      "edad": "20",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Rosie",
+                      "apellidos": "López López",
+                      "edad": "20",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Jennie",
+                      "apellidos": "España López",
+                      "edad": "19",
+                      "instrumento": "Vocalista"
+                   }
+                ]
+             },
+             "premios": {
+                "premio": [
+                   {
+                      "nombre_premio": "MKS Showdown",
+                      "año_premio": "2017"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_grupo": "Los Ramones 2",
+             "localidad": "Almería",
+             "año_creacion": "2007",
+             "componentes": {
+                "componente": [
+                   {
+                      "nombre_componente": "Paco",
+                      "apellidos": "Gómez Álvarez",
+                      "edad": "23",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Joaquín",
+                      "apellidos": "Gómez López",
+                      "edad": "26",
+                      "instrumento": "Guitarra"
+                   },
+                   {
+                      "nombre_componente": "Antonio",
+                      "apellidos": "López López",
+                      "edad": "20",
+                      "instrumento": "Bajo"
+                   }
+                ]
+             },
+             "premios": {
+                "premio": [
+                   {
+                      "nombre_premio": "Torneo de música de Granada",
+                      "año_premio": "2009"
+                   },
+                   {
+                      "nombre_premio": "Festival de música de Gijón: mejor grupo",
+                      "año_premio": "2010"
+                   },
+                   {
+                      "nombre_premio": "Premio random",
+                      "año_premio": "2012"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_grupo": "AC/DC",
+             "localidad": "Murcia",
+             "año_creacion": "1998",
+             "componentes": {
+                "componente": [
+                   {
+                      "nombre_componente": "Alejandro",
+                      "apellidos": "Roda López",
+                      "edad": "34",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Antonio",
+                      "apellidos": "Roda Martínez",
+                      "edad": "33",
+                      "instrumento": "Vocalista"
+                   },
+                   {
+                      "nombre_componente": "Francisco",
+                      "apellidos": "Roda Navarro",
+                      "edad": "38",
+                      "instrumento": "Guitarra"
+                   },
+                   {
+                      "nombre_componente": "Patricio",
+                      "apellidos": "Roda Roda",
+                      "edad": "33",
+                      "instrumento": "Batería"
+                   }
+                ]
+             },
+             "premios": {
+                "premio": [
+                   {
+                      "nombre_premio": "El premio de mi casa",
+                      "año_premio": "2008"
+                   }
+                ]
+             }
+          }
+       ]
+    }
+ }
